@@ -1,0 +1,25 @@
+body {margin: 0;}
+.container {width: 951px;margin: 0 auto;}
+nav ul {
+    margin: 7px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;}
+nav ul li {
+    display: inline;
+    padding: 0 16.5px;}
+nav ul li a {
+text-decoration: none;
+    color: #000000;
+    font-size: 20px;}
+nav ul li a:hover {
+    color: gray;}
+.heebo-medium {
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;}
+h1 {margin-top:151px; display:flex; justify-content: space-between}
+p {display: flex; justify-content: space-between}
+.hero-image {width: 243px; height: 242px; border-radius: 50%; justify-content: right}
