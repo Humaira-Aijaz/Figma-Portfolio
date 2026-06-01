@@ -74,5 +74,8 @@ button {width:207px; height: 48px; color:white; background-color: #FF6464; borde
 .posts-grid{display:flex; gap: 17px; padding-bottom:52px}
 .post-card{background-color: white; width: 418px; height: 295px; padding: 29px 24px 31px 45px}
 .post-card h3{margin 0 0 36px 0; font-size: 26px}
-.post-meta{margin 0 0 27px 0; font-size: 18px}
+.post{margin 0 0 27px 0; font-size: 18px}
 .post-card p{font-size: 16px; height: 90px}
+.post-date {margin-right: 30px}
+.divider {margin-right: 26px}
+.post-tags
