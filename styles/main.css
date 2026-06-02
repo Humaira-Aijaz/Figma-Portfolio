@@ -78,4 +78,16 @@ button {width:207px; height: 48px; color:white; background-color: #FF6464; borde
 .post-card p{font-size: 16px; height: 90px}
 .post-date {margin-right: 30px}
 .divider {margin-right: 26px}
-.post-tags
+.featured-section{width:1152px; height: 865px; margin:0 auto}
+.featured-work{display: flex;
+    align-items: flex-start;
+    gap: 18px;}
+.dashboard img{ width: 246px;
+    height: 180px;
+    object-fit: cover;}
+.potrait img{ width: 246px;
+    height: 180px;
+    object-fit: cover;}
+.malyalm img{ width: 246px;
+    height: 182px;
+    object-fit: cover;}
