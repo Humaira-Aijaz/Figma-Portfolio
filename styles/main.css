@@ -1,5 +1,7 @@
 body {
-    margin: 0;
+    margin: 0;  margin: 0;
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto
 }
 
 .container {
@@ -17,10 +19,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    padding: 0 16.5px;  font-family: "Heebo", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
+    padding: 0 16.5px;}
 
 nav ul li a {
     text-decoration: none;
@@ -71,6 +70,7 @@ button {width:207px; height: 48px; color:white; background-color: #FF6464; borde
     justify-content: space-between;
     align-items: center}
 .section-header{margin: 28px 0 14px 0}
+.section-header p{color: #00A8CC; font-size: 16px}
 .posts-grid{display:flex; gap: 17px; padding-bottom:52px}
 .post-card{background-color: white; width: 418px; height: 295px; padding: 29px 24px 31px 45px}
 .post-card h3{margin 0 0 36px 0; font-size: 26px}
@@ -91,4 +91,7 @@ button {width:207px; height: 48px; color:white; background-color: #FF6464; borde
 .malyalm img{ width: 246px;
     height: 182px;
     object-fit: cover;}
-.footer-images {width:30px; height:30px; margin-right: 10px}
+.footer-social {display: inline-flex;
+    justify-content:center; padding: 0 34px 35px 0}
+.footer-social image {width:30px; height:31px;}
+footer{padding: 0 0 50px 0; text-align: center}
