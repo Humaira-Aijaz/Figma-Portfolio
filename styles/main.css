@@ -30,7 +30,6 @@ nav ul li a {
 nav ul li a:hover {
     color: gray;
 }
-
 .heebo-medium {
     font-weight: 500;
 }
@@ -43,7 +42,7 @@ nav ul li a:hover {
     font-weight: 700;
 }
 .heebo-black {font-weight: 900;  font-size: 18px;
-    background-color: #000;
+    background-color: #142850;
     color: white;
     padding: 0px 10px 0px 10px;
     border-radius: 16px;
@@ -69,7 +68,7 @@ h1 {
     height: 242px;
     border-radius: 50%;
 }
-h1{margin-bottom: 33px;}
+h1{margin-bottom: 33px; color: #21243D}
 .hero p{margin-bottom: 32px}
 button {width:207px; height: 48px; color:white; background-color: #FF6464; border-color: #FF6464; padding-top: 10px 0 10px 0; font-size: 20px; margin-bottom: 68px}
 .recent-posts{background-color:#EDF7FA; width:1149px; height: 392; margin:0 auto}
@@ -80,16 +79,18 @@ button {width:207px; height: 48px; color:white; background-color: #FF6464; borde
 .section-header p{color: #00A8CC; font-size: 16px}
 .posts-grid{display:flex; gap: 17px; padding-bottom:52px}
 .post-card{background-color: white; width: 418px; height: 295px; padding: 29px 24px 31px 45px}
-.post-card h3{margin 0 0 36px 0; font-size: 26px}
+.post-card h3{margin 0 0 36px 0; font-size: 26px; color: #21243D}
 .post{margin 0 0 27px 0; font-size: 18px}
-.post-card p{font-size: 16px; height: 90px}
-.post-date {margin-right: 30px}
+.post-card p{font-size: 16px; height: 90px; color: #21243D}
+.post-date {margin-right: 30px; font-size: 18px}
 .divider {margin-right: 26px}
 .featured-section{width:1152px; height: 865px; margin:0 auto}
 .featured-work{display: flex;
     align-items: flex-start;
     gap: 18px;}
-.category {padding-left:26px}
+.featured-section h2{margin:0 0 16px 0; font-size: 30px; color: #21243D}
+.feature-section p{font-size:16px; margin-top:16px; color: #21243D}
+.category {padding-left:26px; color:#8695A4; font: size 20px;}
 .dashboard img{ width: 246px;
     height: 180px;
     object-fit: cover;}
@@ -103,3 +104,4 @@ button {width:207px; height: 48px; color:white; background-color: #FF6464; borde
     justify-content:center; padding: 0 34px 35px 0}
 .footer-social image {width:30px; height:31px;}
 footer{padding: 0 0 50px 0; text-align: center}
+footer p{color: #21243D; font-size: 14px}
