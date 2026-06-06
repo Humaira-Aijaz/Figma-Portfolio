@@ -70,8 +70,8 @@ h1 {
 }
 h1{margin-bottom: 33px; color: #21243D}
 .hero p{margin-bottom: 32px}
-button {width:207px; height: 48px; color:white; background-color: #FF6464; border-color: #FF6464; padding-top: 10px 0 10px 0; font-size: 20px; margin-bottom: 68px}
-.recent-posts{background-color:#EDF7FA; width:1149px; height: 392; margin:0 auto}
+button {width:207px; height: 48px; color:white; background-color: #FF6464; border-color: #FF6464; padding-top: 10px 0 10px 0; font-size: 20px; margin-bottom: 68px; border-radius: 24px;}
+.recent-posts{background-color:#EDF7FA width:1149px; height: 392; margin:0 auto}
 .section-header{display: flex;
     justify-content: space-between;
     align-items: center}
