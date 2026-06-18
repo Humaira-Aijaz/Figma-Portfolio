@@ -65,7 +65,7 @@ h1 {
 .hero p {font-size: 16px}
 .hero-image {
     height: 242px; width:243px;
-    border-radius: 50%; padding-top:156px
+    border-radius: 30%; padding-top:156px
 }
 h1{margin-bottom: 33px; color: #21243D}
 .hero p{margin-bottom: 32px}
