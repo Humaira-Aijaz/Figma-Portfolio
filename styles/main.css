@@ -49,7 +49,6 @@ nav ul li a:hover {
     line-height:30px;
     display: inline-block;}
 .hero {
-    padding-top: 210px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,14 +58,14 @@ nav ul li a:hover {
 }
 
 .hero-text {
-    max-width: 488px;
+    max-width: 488px; padding-top: 210px
 }
 h1 {
     font-size: 44px}
 .hero p {font-size: 16px}
 .hero-image {
-    height: 242px;
-    border-radius: 50%;
+    height: 242px; width:243px;
+    border-radius: 50%; padding-top:156px
 }
 h1{margin-bottom: 33px; color: #21243D}
 .hero p{margin-bottom: 32px}
