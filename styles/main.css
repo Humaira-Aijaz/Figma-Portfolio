@@ -82,11 +82,11 @@ h1 {
 .post-card p{font-size: 16px; color: #21243D}
 .post-date {margin-right: 30px; font-size: 18px}
 .divider {margin-right: 26px}
-.featured-section{width:1152px; margin:0 auto}
+.featured-section{width:1152px; height:865px; margin:0 auto}
 .featured-work{display: flex;
     align-items: flex-start;
     gap: 18px;}
-.featured-section h4 {font-size:22px; line-height: 60px; color: #21243D}
+.featured-section h4 {font-size:22px; line-height: 60px;color: #21243D; margin-bottom: 0}
 .featured-section h2{margin:0 0 16px 0; font-size: 30px; color: #21243D}
 .feature-section p{font-size:16px; margin-top:16px; color: #21243D}
 .category {padding-left:26px; color:#8695A4; font: size 20px;}
@@ -99,8 +99,26 @@ h1 {
 .malyalm img{ width: 246px;
     height: 182px;
     object-fit: cover; border-radius: 6px;}
-.footer-social {display: inline-flex;
-    justify-content:center; padding: 0 34px 35px 0}
-.footer-social image {width:30px; height:31px;}
-footer{padding: 0 0 50px 0; text-align: center}
-footer p{color: #21243D; font-size: 14px}
+footer{
+    width:1152px;
+    height:182px;
+    margin:0 auto;      
+    text-align:center;
+}
+
+.footer-social{
+    display:inline-block;
+    margin:0 15px;      
+}
+
+.footer-social img{
+    width:30px;
+    height:30px;
+}
+
+footer p{
+    margin-top:25px; 
+    font-size:14px;
+    color:#21243D;
+    padding-bottom:56px;
+}
