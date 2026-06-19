@@ -19,7 +19,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    padding: 0 18px;}
+    padding: 29px 18px;}
 
 nav ul li a {
     text-decoration: none;
@@ -58,32 +58,31 @@ nav ul li a:hover {
 }
 
 .hero-text {
-    max-width: 488px; padding-top: 210px
+    padding-top: 237px; padding-right: 108px; 
 }
 h1 {
-    font-size: 44px}
-.hero p {font-size: 16px}
+    font-size: 44px; margin-bottom: 33px; color: #21243D}
+.hero p {font-size: 16px; margin-bottom: 32px}
 .hero-image {
     height: 242px; width:243px;
-    border-radius: 30%; padding-top:156px
+    border-radius: 30%; padding-top:210px;
 }
-h1{margin-bottom: 33px; color: #21243D}
-.hero p{margin-bottom: 32px}
-button {width:208px; height: 47px; color:white; background-color: #FF6464; border-color: #FF6464; padding-top: 10px 0 10px 0; font-size: 20px; margin-bottom: 68px; border-radius: 5px;}
-.recent-posts{background-color:#EDF7FA; width:1149px; height: 392px; margin:0 auto}
+.button {width:208px; height: 47px; color: #FFFFFF ;background-color: #FF6464; border-color: #FF6464; font-size: 20px; margin-bottom: 68px; border-radius: 2px;}
+.recent-posts{background-color:#EDF7FA; width:1152px; margin:0 auto; padding-bottom:32px;}
 .section-header{display: flex;
     justify-content: space-between;
     align-items: center}
 .section-header{margin: 28px 0 14px 0}
+.section-header h2{font-size:22px; line-height: 60px; color: #21243D}
 .section-header p{color: #00A8CC; font-size: 16px}
-.posts-grid{display:flex; gap: 17px; padding-bottom:52px;}
-.post-card{background-color: white; width: 418px; height: 250px; padding: 21px 47px 22px 32px}
-.post-card h3{font-size: 26px; color: #21243D}
-.post{margin 0 0 27px 0; font-size: 18px}
+.posts-grid{display:flex; gap: 17px;}
+.post-card{background-color: white; width: 418px; height: 295px; padding: 29px 47px 29px 21px;}
+.post-card h3{font-size: 26px; color: #21243D;}
+.post{margin: 0 0 27px 0; font-size: 18px;}
 .post-card p{font-size: 16px; color: #21243D}
 .post-date {margin-right: 30px; font-size: 18px}
 .divider {margin-right: 26px}
-.featured-section{width:1152px; height: 865px; margin:0 auto}
+.featured-section{width:1152px; margin:0 auto}
 .featured-work{display: flex;
     align-items: flex-start;
     gap: 18px;}
