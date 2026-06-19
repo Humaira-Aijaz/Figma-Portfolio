@@ -67,7 +67,7 @@ h1 {
     height: 242px; width:243px;
     border-radius: 30%; padding-top:210px;
 }
-.button {width:208px; height: 47px; color: #FFFFFF ;background-color: #FF6464; border-color: #FF6464; font-size: 20px; margin-bottom: 68px; border-radius: 2px;}
+.button {width:208px; height: 47px; color: #FFFFFF ;background-color: #FF6464; border:none ; font-size: 20px; margin-bottom: 68px; border-radius: 2px;}
 .recent-posts{background-color:#EDF7FA; width:100%; margin:0 auto; padding-bottom:32px;}
 .section-header{display: flex;
     justify-content: space-between;
@@ -99,10 +99,17 @@ h1 {
 .malyalm img{ width: 246px;
     height: 182px;
     object-fit: cover; border-radius: 6px;}
+    hr{
+    width: 858px;
+    margin: 40px auto;   
+    border: none;        
+    height: 1px;         
+    background-color: #E0E0E0; 
+}
 footer{
     width:1152px;
     height:182px;
-    margin:0 auto;      
+    margin:114px auto 0 auto;      
     text-align:center;
 }
 
@@ -117,8 +124,7 @@ footer{
 }
 
 footer p{
-    margin-top:25px; 
+     
     font-size:14px;
     color:#21243D;
-    padding-bottom:56px;
 }
